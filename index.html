@@ -1,0 +1,45 @@
+<!-- Responsive Fixes -->
+<!-- Ensure viewport tag is present -->
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- existing head content -->
+  </head>
+  
+  <!-- Responsive Grid Adjustments -->
+  <!-- Example fix for grid classes -->
+  <div class="col-12 col-sm-6 col-md-4 col-lg-3">...</div>
+  
+  <!-- Carousel Section - Improve spacing and centering on mobile -->
+  <div class="col-12 col-lg-8 text-center">...</div>
+  
+  <!-- Text Scaling for Mobile -->
+  <h1 class="display-6 display-md-3">Title</h1>
+  <p class="fs-6 fs-md-5">Description for smaller screens</p>
+  
+  <!-- Buttons -->
+  <a href="#" class="btn btn-primary btn-sm btn-md px-4 py-2">Shop Now</a>
+  
+  <!-- Overflow Images -->
+  <img class="img-fluid" src="img/your_image.png" style="object-fit: cover; max-width: 100%; height: auto;" alt="">
+  
+  <!-- Fix for team section with margin issue -->
+  <div class="row g-4 justify-content-center">
+    <div class="col-lg-3 col-md-6 col-sm-12">...</div>
+    <!-- repeat for other team members -->
+  </div>
+  
+  <!-- Container adjustments -->
+  <!-- Use px-3 on small screens and px-lg-0 for larger -->
+  <div class="container px-3 px-lg-0">...</div>
+  
+  <!-- Custom CSS suggestion (add in your main CSS file or inside a <style> tag) -->
+  <style>
+    @media (max-width: 576px) {
+      .display-1, .display-2, .display-3 {
+        font-size: 2rem !important;
+      }
+      .section-title h1 {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
